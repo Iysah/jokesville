@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500&family=Sriracha&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-image: /* global 94%+ browsers support */
+    linear-gradient(348deg, #9C27B0BA 0%, #FFC107D6 100%);
+    /* display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column; */
+    height: 100vh;
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    flex-direction: column;
+}
+h1 {
+    font-size: 50px;
+    font-style: italic;
+    font-family: 'Sriracha', cursive;
+    font-weight: 600;
+    color: rgb(81, 79, 79);
+    margin: 15px;
+}
+.results {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.results h2 {
+    margin: 30px 0;
+    font-size: 30px;
+    font-weight: 500px;
+    color: rgb(81, 79, 79);
+    word-spacing: 5px;
+    /* text-transform: uppercase; */
+}
+.result {
+    background-image: linear-gradient(to right, #f69309  0%, #ffc107b9 100%);
+    box-shadow: 0 0 20px rgb(67, 64, 64);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    margin: 10px;
+    height: 400px;
+    width: 300px;
+    border-radius: 5px;
+}
+.joke-result__type {
+    height: 50px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.joke-result__type p {
+    font-size: 20px;
+    font-weight: 500;
+}
+/* .cat-result__img img, 
+.dog-result__img img {
+    object-fit: cover;
+    height: 200px;
+    width: 100%;
+} */
+.joke-result__text {
+    height: 350px;
+    width: 100%;
+    padding: 10px;
+    background: rgb(249, 241, 241);
+    border-radius: 0 0 5px 5px;
+}
+.joke-result__text p {
+    width: 100%;
+    height: 100%;
+}
+/* .buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} */
+button:active {
+    transform: scale(.98);;
+}
+button:focus {
+    outline: none;
+}
+         
+.btn {
+    background-image: linear-gradient(to right, #f69309  0%, #ffc107b9 100%);
+    margin: 10px;
+    padding: 15px 45px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    width: 300px;
+    color: rgb(43, 42, 42);
+    font-weight: 600;            
+    box-shadow: 0 0 20px rgb(67, 64, 64);
+    border: none;
+    border-radius: 10px;
+    display: block;
+  }
+
+  .btn:hover {
+    background-position: right center; /* change the direction of the change here */
+    color: rgb(47, 46, 46);
+    text-decoration: none;
+  }
+ 
