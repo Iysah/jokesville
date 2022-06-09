@@ -48,7 +48,7 @@ h1 {
     text-align: center;
     margin: 10px;
     height: 400px;
-    width: 300px;
+    width: 600px;
     border-radius: 5px;
 }
 .joke-result__type {
@@ -99,7 +99,7 @@ button:focus {
     text-transform: uppercase;
     transition: 0.5s;
     background-size: 200% auto;
-    width: 300px;
+    width: 200px;
     color: rgb(43, 42, 42);
     font-weight: 600;            
     box-shadow: 0 0 20px rgb(67, 64, 64);
